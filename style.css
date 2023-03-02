@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(Paraluman.jpg) no-repeat;
+    background-size: cover;
+  }
+  .box{
+    width: 450px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+    font-family: 'Century Gothic',sans-serif;
+  }
+  .box-img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+  }
+  .box h1{
+    font-size: 40px;
+    font-weight: 100;
+  }
+  .box p{
+    text-align: center;
+  }
+  .box li a:hover{
+    color: #b9b9b9;
+  }
+  .btn{
+    font-family: 'Century Gothic',sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #ffffff;
+    width: 160px;
+    padding: 7px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000000;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+  }
+  .btn:hover, .btn:focus, .btn:active{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
